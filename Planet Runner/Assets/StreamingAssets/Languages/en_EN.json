@@ -1,0 +1,36 @@
+{
+	"Menu_PlayButton":"Play",
+	"Menu_SettingsButton":"Settings",
+
+	"Menu_Settings_SettingsLabel":"Settings",
+	"Menu_Settings_BackButton":"Back",
+	"Menu_Settings_ExitButton":"Exit",
+	"Menu_Settings_LanguageLabel":"Language",
+	"Menu_Settings_LanguageButton":"English",
+
+	"Menu_BuyConfrim_BuyConfrimLabel":"Are you sure that you want to discover the planet?",
+	"Menu_BuyConfrim_ApplyButton":"Yes",
+	"Menu_BuyConfrim_CancelButton":"No",
+
+	"Menu_BuyError_BuyErrorLabel":"You do not have enough currency to buy.",
+	"Menu_BuyError_CancelButton":"OK",
+
+	"Planet_MenuButton":"Menu",
+
+	"Planet_Menu_MenuLabel":"Menu",
+	"Planet_Menu_BackButton":"Back",
+	"Planet_Menu_RestartButton":"Restart",
+	"Planet_Menu_ExitButton":"Exit",
+	"Planet_Menu_LanguageLabel":"Language",
+	"Planet_Menu_LanguageButton":"English",
+
+	"Planet_EvacuationButton":"Evacuation",
+
+	"Planet_Lose_LoseLabel":"You are dead",
+	"Planet_Lose_RestartButton":"Restart",
+	"Planet_Lose_ExitButton":"Exit",
+
+	"Planet_Win_WinLabel":"You are saved",
+	"Planet_Win_RestartButton":"Restart",
+	"Planet_Win_ExitButton":"Exit"
+}

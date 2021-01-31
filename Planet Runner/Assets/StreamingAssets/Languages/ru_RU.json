@@ -1,0 +1,36 @@
+{
+	"Menu_PlayButton":"Играть",
+	"Menu_SettingsButton":"Настройки",
+
+	"Menu_Settings_SettingsLabel":"Настройки",
+	"Menu_Settings_BackButton":"Назад",
+	"Menu_Settings_ExitButton":"Выйти",
+	"Menu_Settings_LanguageLabel":"Язык",
+	"Menu_Settings_LanguageButton":"Русский",
+
+	"Menu_BuyConfrim_BuyConfrimLabel":"Вы уверены, что хотите открыть планету?",
+	"Menu_BuyConfrim_ApplyButton":"Да",
+	"Menu_BuyConfrim_CancelButton":"Нет",
+
+	"Menu_BuyError_BuyErrorLabel":"У вас недостаточно валюты для покупки.",
+	"Menu_BuyError_CancelButton":"Понятно",
+
+	"Planet_MenuButton":"Меню",
+
+	"Planet_Menu_MenuLabel":"Меню",
+	"Planet_Menu_BackButton":"Назад",
+	"Planet_Menu_RestartButton":"Заново",
+	"Planet_Menu_ExitButton":"Выход",
+	"Planet_Menu_LanguageLabel":"Язык",
+	"Planet_Menu_LanguageButton":"Русский",
+
+	"Planet_EvacuationButton":"Эвакуация",
+
+	"Planet_Lose_LoseLabel":"Вы мертвы",
+	"Planet_Lose_RestartButton":"Заново",
+	"Planet_Lose_ExitButton":"Выход",
+
+	"Planet_Win_WinLabel":"Вы спасены",
+	"Planet_Win_RestartButton":"Заново",
+	"Planet_Win_ExitButton":"Выход"
+}
