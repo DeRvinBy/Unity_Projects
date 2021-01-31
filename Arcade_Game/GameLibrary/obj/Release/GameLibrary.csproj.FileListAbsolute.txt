@@ -1,0 +1,60 @@
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\Resources\Blue Player\damage left idle 1.png
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\Resources\Blue Player\damage left idle 2.png
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\Resources\Blue Player\damage left run 1.png
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\Resources\Blue Player\damage left run 2.png
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\Resources\Blue Player\damage left run 3.png
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\Resources\Blue Player\damage left run 4.png
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\Resources\Blue Player\damage right idle 1.png
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\Resources\Blue Player\damage right idle 2.png
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\Resources\Blue Player\damage right run 1.png
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\Resources\Blue Player\damage right run 2.png
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\Resources\Blue Player\damage right run 3.png
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\Resources\Blue Player\damage right run 4.png
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\Resources\Blue Player\left idle 1.png
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\Resources\Blue Player\left idle 2.png
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\Resources\Blue Player\left run 1.png
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\Resources\Blue Player\left run 2.png
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\Resources\Blue Player\left run 3.png
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\Resources\Blue Player\left run 4.png
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\Resources\Blue Player\right idle 1.png
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\Resources\Blue Player\right idle 2.png
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\Resources\Blue Player\right run 1.png
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\Resources\Blue Player\right run 2.png
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\Resources\Blue Player\right run 3.png
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\Resources\Blue Player\right run 4.png
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\Resources\Bullets\damage bullet.png
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\Resources\MazeElements\BreakWall.png
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\Resources\MazeElements\BreakWall 1.png
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\Resources\MazeElements\BreakWall 2.png
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\Resources\MazeElements\BreakWall 3.png
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\Resources\MazeElements\Platform.png
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\Resources\MazeElements\Stair.png
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\Resources\MazeElements\Wall.png
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\Resources\Mazes\Maze 1.png
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\Resources\Mazes\Maze 2.png
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\Resources\Фон.png
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\GameLibrary.dll
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\GameLibrary.pdb
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\EngineLibrary.dll
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\SharpDX.Desktop.dll
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\SharpDX.Direct2D1.dll
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\SharpDX.DirectInput.dll
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\SharpDX.dll
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\SharpDX.DXGI.dll
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\SharpDX.Mathematics.dll
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\EngineLibrary.pdb
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\SharpDX.pdb
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\SharpDX.Desktop.pdb
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\SharpDX.Desktop.xml
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\SharpDX.Direct2D1.pdb
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\SharpDX.Direct2D1.xml
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\SharpDX.DirectInput.pdb
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\SharpDX.DirectInput.xml
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\SharpDX.DXGI.pdb
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\SharpDX.DXGI.xml
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\SharpDX.Mathematics.pdb
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\bin\Release\SharpDX.Mathematics.xml
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\obj\Release\GameLibrary.csprojAssemblyReference.cache
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\obj\Release\GameLibrary.csproj.CopyComplete
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\obj\Release\GameLibrary.dll
+G:\Учбеа\Курсовая\CourseGame\GameLibrary\obj\Release\GameLibrary.pdb

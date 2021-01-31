@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EngineLibrary.EngineComponents.Input" Collapsed="true">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <AssociationLine Name="AxisOfInput" Type="EngineLibrary.EngineComponents.AxisOfInput">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.357" Y="0.144" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAICAAAAAAAAAAAQAAAAEAAAAAAAA=</HashCode>
+      <FileName>EngineComponents\Input.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AxisOfInput" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EngineLibrary.EngineComponents.InputHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAIIACACAAAAAAAAAAAAAAAAAAEAAAAAAAIAEAE=</HashCode>
+      <FileName>EngineComponents\InputHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EngineLibrary.EngineComponents.RenderingApplication" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="0.5" Width="3" />
+    <AssociationLine Name="InputHandler" Type="EngineLibrary.EngineComponents.InputHandler">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.465" Y="0.467" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="RenderingSystem" Type="EngineLibrary.EngineComponents.RenderingSystem">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.621" Y="0.467" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Scene" Type="EngineLibrary.EngineComponents.Scene">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.333" Y="0.479" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEACAgAAIAiQQAAIAAAAAAABAAAACBAAABAII=</HashCode>
+      <FileName>EngineComponents\RenderingApplication.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="InputHandler" />
+      <Property Name="RenderingSystem" />
+      <Property Name="Scene" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.272" Collapsed="true" />
+  </Class>
+  <Class Name="EngineLibrary.EngineComponents.RenderingSystem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQCAgAgAAIAAAAAQgAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>EngineComponents\RenderingSystem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.238" Collapsed="true" />
+  </Class>
+  <Class Name="EngineLibrary.EngineComponents.Scene" Collapsed="true">
+    <Position X="6.75" Y="2.5" Width="1.5" />
+    <AssociationLine Name="GameObject" Type="EngineLibrary.ObjectComponents.GameObject">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.477" Y="0.911" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAEgBAAABAAAAAAAAACAAAAADEAgAAIAAAE=</HashCode>
+      <FileName>EngineComponents\Scene.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="GameObject" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EngineLibrary.EngineComponents.Time" Collapsed="true">
+    <Position X="0.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAABQABAAAAAAAAAAAAAAAAAAAEgAAAAAA=</HashCode>
+      <FileName>EngineComponents\Time.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EngineLibrary.ObjectComponents.Animation" Collapsed="true">
+    <Position X="5.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAIAAAAAAAAgAAAAAAAABAAAAAAAAAQCAIAA=</HashCode>
+      <FileName>ObjectComponents\Animation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EngineLibrary.ObjectComponents.ColliderComponent" Collapsed="true">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAQAAAAAAAAAAEAAAAAACAAIAAAEAAgIAAIIAAgA=</HashCode>
+      <FileName>ObjectComponents\ColliderComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EngineLibrary.ObjectComponents.GameObject" Collapsed="true">
+    <Position X="6.25" Y="5" Width="2.5" />
+    <AssociationLine Name="TransformComponent" Type="EngineLibrary.ObjectComponents.TransformComponent">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.633" Y="0.479" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="SpriteComponent" Type="EngineLibrary.ObjectComponents.SpriteComponent" FixedFromPoint="true">
+      <Path>
+        <Point X="6.562" Y="5.562" />
+        <Point X="6.562" Y="6.5" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.609" Y="0.467" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="ColliderComponent" Type="EngineLibrary.ObjectComponents.ColliderComponent" FixedFromPoint="true">
+      <Path>
+        <Point X="8.312" Y="5.562" />
+        <Point X="8.312" Y="6.5" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.752" Y="0.455" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="ObjectScript" Type="EngineLibrary.ObjectComponents.ObjectScript">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.501" Y="0.479" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAEAgAgAAEAgAAAQBAQABgAAQCBAAAAAgAIA=</HashCode>
+      <FileName>ObjectComponents\GameObject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TransformComponent" />
+      <Property Name="SpriteComponent" />
+      <Property Name="ColliderComponent" />
+      <Property Name="ObjectScript" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EngineLibrary.ObjectComponents.ObjectScript" Collapsed="true">
+    <Position X="9.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAQAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>ObjectComponents\ObjectScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EngineLibrary.ObjectComponents.SpriteComponent" Collapsed="true">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <AssociationLine Name="Animation" Type="EngineLibrary.ObjectComponents.Animation">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.369" Y="0.3" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAABAAAAAgAgAAAAAAAAgEAAABAAAIAAgCAA=</HashCode>
+      <FileName>ObjectComponents\SpriteComponent.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Animation" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EngineLibrary.ObjectComponents.TransformComponent" Collapsed="true">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACACgAAAAACAAAoAAIAYAACAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectComponents\TransformComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="EngineLibrary.EngineComponents.AxisOfInput" Collapsed="true">
+    <Position X="2.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAACAAAAAIAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>EngineComponents\Input.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

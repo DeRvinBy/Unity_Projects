@@ -1,0 +1,537 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EngineLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:EngineLibrary.EngineComponents.Scene">
+            <summary>
+            Абстрактный класс сцены
+            </summary>
+        </member>
+        <member name="F:EngineLibrary.EngineComponents.Scene.gameObjects">
+            <summary>
+            Список текущих игровых объектов для отрисовки
+            </summary>
+        </member>
+        <member name="F:EngineLibrary.EngineComponents.Scene.gameObjectsToAdd">
+            <summary>
+            Список игровых объектов для добалвения в список отрисовки
+            </summary>
+        </member>
+        <member name="F:EngineLibrary.EngineComponents.Scene.gameObjectsToRemove">
+            <summary>
+            Список игровых объектов для удаления их списка отрисовки
+            </summary>
+        </member>
+        <member name="F:EngineLibrary.EngineComponents.Scene.IsDrawScene">
+            <summary>
+            Состояния отрисовки сцены
+            </summary>
+        </member>
+        <member name="M:EngineLibrary.EngineComponents.Scene.InitializeScene(SharpDX.Direct2D1.WindowRenderTarget,System.Single)">
+            <summary>
+            Инициализация сцены и игровых объектов
+            </summary>
+            <param name="target">Окно отрисовки</param>
+            <param name="scale">Относительный размер объектов</param>
+        </member>
+        <member name="M:EngineLibrary.EngineComponents.Scene.InitializeEngineSettingsToGameObjects(System.Collections.Generic.List{EngineLibrary.ObjectComponents.GameObject})">
+            <summary>
+            Установка опций рендеринга игровым объектам
+            </summary>
+        </member>
+        <member name="M:EngineLibrary.EngineComponents.Scene.CreateGameObjectsOnScene">
+            <summary>
+            Создание игровых объектов на сцене
+            </summary>
+        </member>
+        <member name="M:EngineLibrary.EngineComponents.Scene.DrawScene">
+            <summary>
+            Отрисовка сцены (игровых объектов)
+            </summary>
+        </member>
+        <member name="M:EngineLibrary.EngineComponents.Scene.AddRenderGameObjects">
+            <summary>
+            Добавление игрового объекта для отрисовки
+            </summary>
+        </member>
+        <member name="M:EngineLibrary.EngineComponents.Scene.RemoveRenderGameObjects">
+            <summary>
+            Удаление игрового объекта из отрисовки
+            </summary>
+        </member>
+        <member name="M:EngineLibrary.EngineComponents.Scene.EndScene">
+            <summary>
+            Поведения при окончании сцены
+            </summary>
+        </member>
+        <member name="T:EngineLibrary.EngineComponents.Input">
+            <summary>
+            Класс, позволяющий управлять вводом с клавиатуры
+            </summary>
+        </member>
+        <member name="M:EngineLibrary.EngineComponents.Input.SetupInputHandler(EngineLibrary.EngineComponents.InputHandler)">
+            <summary>
+            Установка обработчика ввода с клавиатуры
+            </summary>
+            <param name="input">Обработчик ввода с клавиатуры</param>
+        </member>
+        <member name="M:EngineLibrary.EngineComponents.Input.GetAxis(EngineLibrary.EngineComponents.AxisOfInput)">
+            <summary>
+            Метод, возращающий значение ввода основных осей направления
+            </summary>
+            <param name="axis">Ось направления</param>
+            <returns>Положительное или отрицательное значение оси</returns>
+        </member>
+        <member name="M:EngineLibrary.EngineComponents.Input.GetButtonDawn(SharpDX.DirectInput.Key)">
+            <summary>
+            Метод, возращающий реакцию на нажатие клавиши ввода
+            </summary>
+            <param name="key">Клавиша ввода</param>
+            <returns>Реакция true или false</returns>
+        </member>
+        <member name="T:EngineLibrary.EngineComponents.AxisOfInput">
+            <summary>
+            Ось направления ввода
+            </summary>
+        </member>
+        <member name="F:EngineLibrary.EngineComponents.AxisOfInput.Horizontal">
+            <summary>
+            Горизонтальная ось
+            </summary>
+        </member>
+        <member name="F:EngineLibrary.EngineComponents.AxisOfInput.Vertical">
+            <summary>
+            Вертикальная ось
+            </summary>
+        </member>
+        <member name="F:EngineLibrary.EngineComponents.AxisOfInput.AlternativeHorizontal">
+            <summary>
+            Альтернативная горизонтальная ось
+            </summary>
+        </member>
+        <member name="F:EngineLibrary.EngineComponents.AxisOfInput.AlternativeVertical">
+            <summary>
+            Альтернативная вертикальная ось 
+            </summary>
+        </member>
+        <member name="T:EngineLibrary.EngineComponents.InputHandler">
+            <summary>
+            Обработчик ввода с клавиатуры
+            </summary>
+        </member>
+        <member name="P:EngineLibrary.EngineComponents.InputHandler.KeyboardState">
+            <summary>
+            Состояние клавиатуры
+            </summary>
+        </member>
+        <member name="P:EngineLibrary.EngineComponents.InputHandler.KeyboardUpdated">
+            <summary>
+            Удалось ли обновить состоние клавиатуры
+            </summary>
+        </member>
+        <member name="M:EngineLibrary.EngineComponents.InputHandler.#ctor(SharpDX.Windows.RenderForm)">
+            <summary>
+            Конструктор класса, инциализирующий компоненты обработчика
+            </summary>
+            <param name="renderForm">Form отрисовки</param>
+        </member>
+        <member name="M:EngineLibrary.EngineComponents.InputHandler.AcquireKeyboard">
+            <summary>
+            Попытка получить доступ к клавиатуре
+            </summary>
+        </member>
+        <member name="M:EngineLibrary.EngineComponents.InputHandler.UpdateKeyboardState">
+            <summary>
+            Обновление состония клавиатуры
+            </summary>
+        </member>
+        <member name="M:EngineLibrary.EngineComponents.InputHandler.Dispose">
+            <summary>
+            Освобождение ресурсов
+            </summary>
+        </member>
+        <member name="T:EngineLibrary.EngineComponents.RenderingApplication">
+            <summary>
+            Класс отрисовки и обновление всех процессов
+            </summary>
+        </member>
+        <member name="P:EngineLibrary.EngineComponents.RenderingApplication.RenderForm">
+            <summary>
+            Форма отрисовки
+            </summary>
+        </member>
+        <member name="M:EngineLibrary.EngineComponents.RenderingApplication.#ctor">
+            <summary>
+            Конструктор класса, инциализирующий его компоненты
+            </summary>
+        </member>
+        <member name="M:EngineLibrary.EngineComponents.RenderingApplication.SetScene(EngineLibrary.EngineComponents.Scene)">
+            <summary>
+            Установка игровой сцены
+            </summary>
+            <param name="targetScene"></param>
+        </member>
+        <member name="M:EngineLibrary.EngineComponents.RenderingApplication.Run">
+            <summary>
+            Запуск приложения
+            </summary>
+        </member>
+        <member name="M:EngineLibrary.EngineComponents.RenderingApplication.RenderCallback">
+            <summary>
+            Формирование каждого кадра
+            </summary>
+        </member>
+        <member name="M:EngineLibrary.EngineComponents.RenderingApplication.Dispose">
+            <summary>
+            Освобождение ресурсов
+            </summary>
+        </member>
+        <member name="T:EngineLibrary.EngineComponents.RenderingSystem">
+            <summary>
+            Класс создания системы отрисовки
+            </summary>
+        </member>
+        <member name="P:EngineLibrary.EngineComponents.RenderingSystem.RenderTarget">
+            <summary>
+            Окно отрисовки
+            </summary>
+        </member>
+        <member name="M:EngineLibrary.EngineComponents.RenderingSystem.#ctor(SharpDX.Windows.RenderForm)">
+            <summary>
+            Коснтруктор, создаюший систему отрисовки в форме
+            </summary>
+            <param name="form">Форма для отрисовки</param>
+        </member>
+        <member name="M:EngineLibrary.EngineComponents.RenderingSystem.LoadBitmap(System.String)">
+            <summary>
+            Загрузка изображения из файла
+            </summary>
+            <param name="imageFileName">Путь к файлу</param>
+            <returns>Изображение</returns>
+        </member>
+        <member name="M:EngineLibrary.EngineComponents.RenderingSystem.LoadAnimation(System.String,System.Int32)">
+            <summary>
+            Загрузка последовательности изображений для анимации
+            </summary>
+            <param name="pathToFiles">Путь к файлам</param>
+            <param name="countOfBitmaps">Количество файлов для загрузки</param>
+            <returns>Список изображений</returns>
+        </member>
+        <member name="M:EngineLibrary.EngineComponents.RenderingSystem.Dispose">
+            <summary>
+            Освобождение ресурсов
+            </summary>
+        </member>
+        <member name="T:EngineLibrary.EngineComponents.Time">
+            <summary>
+            Статический класс управления временем
+            </summary>
+        </member>
+        <member name="P:EngineLibrary.EngineComponents.Time.CurrentTime">
+            <summary>
+            Текущее время с запуска приложения
+            </summary>
+        </member>
+        <member name="P:EngineLibrary.EngineComponents.Time.DeltaTime">
+            <summary>
+            Разница во времени между кадрами
+            </summary>
+        </member>
+        <member name="M:EngineLibrary.EngineComponents.Time.#cctor">
+            <summary>
+            Конструктори статического класса
+            </summary>
+        </member>
+        <member name="M:EngineLibrary.EngineComponents.Time.UpdateTime">
+            <summary>
+            Обновление подсчитанных значений
+            </summary>
+        </member>
+        <member name="M:EngineLibrary.EngineComponents.Time.Reset">
+            <summary>
+            Сброс таймера и счетчика
+            </summary>
+        </member>
+        <member name="T:EngineLibrary.ObjectComponents.Animation">
+            <summary>
+            Класс анимации 
+            </summary>
+        </member>
+        <member name="M:EngineLibrary.ObjectComponents.Animation.#ctor(System.Collections.Generic.List{SharpDX.Direct2D1.Bitmap},System.Single,System.Boolean)">
+            <summary>
+            Конструктор
+            </summary>
+            <param name="sprites">Список спрайтов</param>
+            <param name="changeTime">Время смены каждого спрайта</param>
+            <param name="isLoop">Зацикленностб анимации</param>
+        </member>
+        <member name="M:EngineLibrary.ObjectComponents.Animation.ResetAnimation">
+            <summary>
+            Сброс анимации
+            </summary>
+        </member>
+        <member name="M:EngineLibrary.ObjectComponents.Animation.GetSpriteFromAnimation">
+            <summary>
+            Возращает текущее изображение анимации
+            </summary>
+            <returns>Текущее изображение в анимации</returns>
+        </member>
+        <member name="T:EngineLibrary.ObjectComponents.ColliderComponent">
+            <summary>
+            Класс компонента, описывающий твердое тело
+            </summary>
+        </member>
+        <member name="P:EngineLibrary.ObjectComponents.ColliderComponent.IsInactive">
+            <summary>
+            Неактивность элемента
+            </summary>
+        </member>
+        <member name="M:EngineLibrary.ObjectComponents.ColliderComponent.#ctor(EngineLibrary.ObjectComponents.GameObject,SharpDX.Size2F,SharpDX.Vector2)">
+            <summary>
+            Конструктор класса
+            </summary>
+            <param name="gameObject">Игровой объект, которому принадлежит компонент</param>
+            <param name="scale">Размер коллайдера</param>
+            <param name="offset">Cмещения коллайдера от центра</param>
+        </member>
+        <member name="M:EngineLibrary.ObjectComponents.ColliderComponent.UpdateBounds">
+            <summary>
+            Обновление границ твердого тела
+            </summary>
+        </member>
+        <member name="M:EngineLibrary.ObjectComponents.ColliderComponent.CheckIntersection(System.String[])">
+            <summary>
+            Проверка на пересечние компонента твердого тела с другими компонентами твердого тела, имеющие тег у игрового объекта
+            </summary>
+            <param name="tagNames">Теги игровых объектов, с которыми ожидается столкновение</param>
+            <returns>Реакция на проверку</returns>
+        </member>
+        <member name="M:EngineLibrary.ObjectComponents.ColliderComponent.CheckIntersection(EngineLibrary.ObjectComponents.GameObject@,System.String[])">
+            <summary>
+            Проверка на пересечние компонента твердого тела с другими компонентами твердого тела, имеющие тег у игрового объекта
+            </summary>
+            <param name="intersecredGameObject">Пересаемый объект</param>
+            <param name="tagNames">Теги игровых объектов, с которыми ожидается столкновение</param>
+            <returns>Реакция на проверку</returns>
+        </member>
+        <member name="M:EngineLibrary.ObjectComponents.ColliderComponent.CheckIntersection``1(``0@)">
+            <summary>
+            Проверка на пересечение компонента твердого тела с другими компонентами твердого тела, имеющие конкретный сценарий выполнения T
+            </summary>
+            <typeparam name="T">Конкретный сценарий выполнения</typeparam>
+            <param name="objectScript">Сценарий выполнения игрового объекта, с которым столкнулся</param>
+            <returns>Реакция на столкновение</returns>
+        </member>
+        <member name="M:EngineLibrary.ObjectComponents.ColliderComponent.CheckGameObjectIntersection(EngineLibrary.ObjectComponents.GameObject)">
+            <summary>
+            Проверка на пересечение компонента твердого тела с другим компонентам твердого тела
+            </summary>
+            <param name="otherGameObject">Игровой объект с компонетом твердого тела</param>
+            <returns>Реакция на столкновение</returns>
+        </member>
+        <member name="M:EngineLibrary.ObjectComponents.ColliderComponent.GetNormal(SharpDX.Vector2[],System.Int32)">
+            <summary>
+            Создание нормали
+            </summary>
+            <param name="corners">Углы двух компонетов</param>
+            <param name="index">Номер угла</param>
+            <returns>Нормаль</returns>
+        </member>
+        <member name="M:EngineLibrary.ObjectComponents.ColliderComponent.GetProjection(SharpDX.Vector2)">
+            <summary>
+            Создание проекции
+            </summary>
+            <param name="normal">Нормаль</param>
+            <returns>Проекцию</returns>
+        </member>
+        <member name="T:EngineLibrary.ObjectComponents.GameObject">
+            <summary>
+            Игровой объект
+            </summary>
+        </member>
+        <member name="P:EngineLibrary.ObjectComponents.GameObject.ParentGameObject">
+            <summary>
+            Родительский игровой объект
+            </summary>
+        </member>
+        <member name="P:EngineLibrary.ObjectComponents.GameObject.GameObjectTag">
+            <summary>
+            Тэг игрового объекта
+            </summary>
+        </member>
+        <member name="P:EngineLibrary.ObjectComponents.GameObject.IsActive">
+            <summary>
+            Активность игрового объекта
+            </summary>
+        </member>
+        <member name="P:EngineLibrary.ObjectComponents.GameObject.Transform">
+            <summary>
+            Компонент перемещения
+            </summary>
+        </member>
+        <member name="P:EngineLibrary.ObjectComponents.GameObject.Sprite">
+            <summary>
+            Компонент спрайта
+            </summary>
+        </member>
+        <member name="P:EngineLibrary.ObjectComponents.GameObject.Collider">
+            <summary>
+            Компонент твердого тела
+            </summary>
+        </member>
+        <member name="P:EngineLibrary.ObjectComponents.GameObject.Script">
+            <summary>
+            Сценарий выполения
+            </summary>
+        </member>
+        <member name="M:EngineLibrary.ObjectComponents.GameObject.InitalizeEngineSettings(SharpDX.Direct2D1.WindowRenderTarget,System.Single)">
+            <summary>
+            Инциализация опций рендеринга игрового объекта
+            </summary>
+            <param name="target">Окно отрисовки</param>
+            <param name="scale">Относительный размер</param>
+        </member>
+        <member name="M:EngineLibrary.ObjectComponents.GameObject.InitializeObjectComponent(System.Object)">
+            <summary>
+            Инциализация компонетов игрового объекта
+            </summary>
+            <param name="component">Компонент игровго объекта</param>
+        </member>
+        <member name="M:EngineLibrary.ObjectComponents.GameObject.InitializeObjectScript(EngineLibrary.ObjectComponents.ObjectScript)">
+            <summary>
+            Инициализация сценария поведения объекта
+            </summary>
+            <param name="objectScript">Сценарий игрового объекта</param>
+        </member>
+        <member name="M:EngineLibrary.ObjectComponents.GameObject.Draw">
+            <summary>
+            Метод отрисовки игрового объекта 
+            </summary>
+        </member>
+        <member name="T:EngineLibrary.ObjectComponents.ObjectScript">
+            <summary>
+            Абстрактный класс сценария поведения игрового объекта
+            </summary>
+        </member>
+        <member name="F:EngineLibrary.ObjectComponents.ObjectScript.gameObject">
+            <summary>
+            Игровой объект, которым управляет сценарий
+            </summary>
+        </member>
+        <member name="M:EngineLibrary.ObjectComponents.ObjectScript.Initialize(EngineLibrary.ObjectComponents.GameObject)">
+            <summary>
+            Инициализация сценария
+            </summary>
+            <param name="gameObject">Игровой объект, который выполняет сценарий</param>
+        </member>
+        <member name="M:EngineLibrary.ObjectComponents.ObjectScript.Start">
+            <summary>
+            Поведение на момент создание игрового объекта
+            </summary>
+        </member>
+        <member name="M:EngineLibrary.ObjectComponents.ObjectScript.Update">
+            <summary>
+            Обновление игрового объекта
+            </summary>
+        </member>
+        <member name="T:EngineLibrary.ObjectComponents.TransformComponent">
+            <summary>
+            Компонент перемещения игрового объекта
+            </summary>
+        </member>
+        <member name="P:EngineLibrary.ObjectComponents.TransformComponent.Position">
+            <summary>
+            Позиция игрового объекта
+            </summary>
+        </member>
+        <member name="P:EngineLibrary.ObjectComponents.TransformComponent.Scale">
+            <summary>
+            Размер игрового объекта
+            </summary>
+        </member>
+        <member name="P:EngineLibrary.ObjectComponents.TransformComponent.IsUseGravitation">
+            <summary>
+            Использование гравитации
+            </summary>
+        </member>
+        <member name="M:EngineLibrary.ObjectComponents.TransformComponent.#ctor(SharpDX.Vector2,SharpDX.Size2F)">
+            <summary>
+            Конструктор компонента
+            </summary>
+            <param name="position">начальная позиция</param>
+            <param name="scale">Начальный размер</param>
+        </member>
+        <member name="M:EngineLibrary.ObjectComponents.TransformComponent.SetMovement(SharpDX.Vector2)">
+            <summary>
+            Перемещение объкта
+            </summary>
+            <param name="movement">Вектор перемещения</param>
+        </member>
+        <member name="M:EngineLibrary.ObjectComponents.TransformComponent.ResetMovement">
+            <summary>
+            Возврат позиция в этом кадре
+            </summary>
+        </member>
+        <member name="M:EngineLibrary.ObjectComponents.TransformComponent.AddGravitation">
+            <summary>
+            Добавление силы тяжести
+            </summary>
+        </member>
+        <member name="M:EngineLibrary.ObjectComponents.TransformComponent.ResetGravitation">
+            <summary>
+            Возрат силы тяжести
+            </summary>
+        </member>
+        <member name="T:EngineLibrary.ObjectComponents.SpriteComponent">
+            <summary>
+            Класс спрайта игровйо объекта
+            </summary>
+        </member>
+        <member name="P:EngineLibrary.ObjectComponents.SpriteComponent.Bitmap">
+            <summary>
+            Изображение игрового объекта
+            </summary>
+        </member>
+        <member name="P:EngineLibrary.ObjectComponents.SpriteComponent.WidthOfSprite">
+            <summary>
+            Ширина спрайта
+            </summary>
+        </member>
+        <member name="P:EngineLibrary.ObjectComponents.SpriteComponent.HeightOfSprite">
+            <summary>
+            Высота спрайта
+            </summary>
+        </member>
+        <member name="P:EngineLibrary.ObjectComponents.SpriteComponent.IsFlipX">
+            <summary>
+            Инверсия по оси X
+            </summary>
+        </member>
+        <member name="M:EngineLibrary.ObjectComponents.SpriteComponent.#ctor(SharpDX.Direct2D1.Bitmap)">
+            <summary>
+            Конструктор класса спрайта
+            </summary>
+            <param name="sprite">Изображение</param>
+        </member>
+        <member name="M:EngineLibrary.ObjectComponents.SpriteComponent.AddAnimation(System.String,EngineLibrary.ObjectComponents.Animation)">
+            <summary>
+            Добавление анимации
+            </summary>
+            <param name="name">Ключ анимации</param>
+            <param name="animation">Анимация</param>
+        </member>
+        <member name="M:EngineLibrary.ObjectComponents.SpriteComponent.PlayAnimation">
+            <summary>
+            Проигрывание анимации
+            </summary>
+        </member>
+        <member name="M:EngineLibrary.ObjectComponents.SpriteComponent.SetAnimation(System.String)">
+            <summary>
+            Установка текущей анимации
+            </summary>
+            <param name="name">Ключ анимации</param>
+        </member>
+    </members>
+</doc>

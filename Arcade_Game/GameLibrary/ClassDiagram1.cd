@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GameLibrary.Bullets.Bullet" Collapsed="true">
+    <Position X="12.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAAAAACAAAAAAgAEAAASBAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bullets\Bullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Bullets.BulletDecorator" Collapsed="true">
+    <Position X="11.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQBAAAAAIIAAAAAAAAAAAA=</HashCode>
+      <FileName>Bullets\BulletDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Bullets.DamageBullet" Collapsed="true">
+    <Position X="15" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQBAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bullets\DamageBullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Bullets.FrezzeBullet" Collapsed="true">
+    <Position X="10.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQBAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bullets\FrezzeBullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Bullets.SlowdownBullet" Collapsed="true">
+    <Position X="12.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQBAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bullets\SlowdownBullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Bullets.BulletFactories.BulletFactory" Collapsed="true">
+    <Position X="12.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Bullets\BulletFactories\BulletFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Bullets.BulletFactories.DamageBulletFactory" Collapsed="true">
+    <Position X="15" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Bullets\BulletFactories\DamageBulletFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Bullets.BulletFactories.FrezzeBulletFactory" Collapsed="true">
+    <Position X="10.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Bullets\BulletFactories\FrezzeBulletFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Bullets.BulletFactories.SlowdownBulletFactory" Collapsed="true">
+    <Position X="12.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Bullets\BulletFactories\SlowdownBulletFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Effects.DamageEffect" Collapsed="true">
+    <Position X="18" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgQAAAAAAAAAAEIAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Effects\DamageEffect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Effects.Effect" Collapsed="true">
+    <Position X="20.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAAAAACAAoQAAACAAAAAAEIAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Effects\Effect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Effects.EffectDecorator" Collapsed="true">
+    <Position X="21.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAQAAAAAAAAAAEAAAAAAQAAAAgAAAAAA=</HashCode>
+      <FileName>Effects\EffectDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Effects.FrezzeEffect" Collapsed="true">
+    <Position X="20.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAQAAAAAAAAAAEIAAAAAAAAAAhAAAAAA=</HashCode>
+      <FileName>Effects\FrezzeEffect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Effects.SlowdownEffect" Collapsed="true">
+    <Position X="22.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAQAAAAAAAAAAEIAAAAAAAABAhAAAAAA=</HashCode>
+      <FileName>Effects\SlowdownEffect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Effects.EffectFactories.DamageEffectFactory" Collapsed="true">
+    <Position X="18" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Effects\EffectFactories\DamageEffectFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Effects.EffectFactories.EffectFactory" Collapsed="true">
+    <Position X="20.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Effects\EffectFactories\EffectFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Effects.EffectFactories.FrezzeEffectFactory" Collapsed="true">
+    <Position X="20.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Effects\EffectFactories\FrezzeEffectFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Effects.EffectFactories.SlowdownEffectFactory" Collapsed="true">
+    <Position X="22.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Effects\EffectFactories\SlowdownEffectFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Game.GameEvents" Collapsed="true">
+    <Position X="8" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Game\GameEvents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Game.Player" Collapsed="true">
+    <Position X="4.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAAEAKAAAAAAAAAACAABAAAAEAAAAAEEAAAAAAQ=</HashCode>
+      <FileName>Game\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Game.PlayerConstructor" Collapsed="true">
+    <Position X="6.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAFAAAAAgAAAAAAAAAAAAAAAAAgAQAAAAAAAA=</HashCode>
+      <FileName>Game\PlayerConstructor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Guns.DamageGun" Collapsed="true">
+    <Position X="25.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgIAAAAAAAAAAAAAAAAAAAAAEAEAAAA=</HashCode>
+      <FileName>Guns\DamageGun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Guns.FrezzeGun" Collapsed="true">
+    <Position X="27.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgIAAAAAAAAAAAAAAAAAAAAAEAEAAAA=</HashCode>
+      <FileName>Guns\FrezzeGun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Guns.Gun" Collapsed="true">
+    <Position X="27.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAAAAACAAggIAAAAAAAAAAEAAAAAACAAAEAEAAAA=</HashCode>
+      <FileName>Guns\Gun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Guns.GunDecorator" Collapsed="true">
+    <Position X="28.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAgIAAAACAAAAAAAAAAAAAAAAEAEAAAA=</HashCode>
+      <FileName>Guns\GunDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Guns.SlowdownGun" Collapsed="true">
+    <Position X="30" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgIAAAAAAAAAAAAAAAAAAAAAEAEAAAA=</HashCode>
+      <FileName>Guns\SlowdownGun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Guns.SpawnFactories.DamageGunSpawnFactory">
+    <Position X="30" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Guns\SpawnFactories\DamageGunSpawnFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Guns.SpawnFactories.FrezzeGunSpawnFactory">
+    <Position X="25.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Guns\SpawnFactories\FrezzeGunSpawnFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Guns.SpawnFactories.GunSpawnFactory">
+    <Position X="27.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Guns\SpawnFactories\GunSpawnFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Guns.SpawnFactories.SlowdownGunSpawnFactory">
+    <Position X="27.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Guns\SpawnFactories\SlowdownGunSpawnFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Maze.BreakWall" Collapsed="true">
+    <Position X="4.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAIAAQAAAAAAAQAAA=</HashCode>
+      <FileName>Maze\BreakWall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Maze.Coin" Collapsed="true">
+    <Position X="6.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Maze\Coin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Maze.GunSpawn" Collapsed="true">
+    <Position X="4.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAAAAAKAAAAAAQAAAAAAAAAAAAAACQAAAAAAAAAA=</HashCode>
+      <FileName>Maze\GunSpawn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Maze.MazeElementsFactory" Collapsed="true">
+    <Position X="6.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Maze\MazeElementsFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Maze.MazeScene" Collapsed="true">
+    <Position X="8" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEQAgAAIAQAAAAAAAAAAgADAEBAABEAAAAAAAAA=</HashCode>
+      <FileName>Maze\MazeScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameLibrary.Maze.SpawnManager" Collapsed="true">
+    <Position X="8" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAgAAAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Maze\SpawnManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="GameLibrary.Game.PlayerControl" Collapsed="true">
+    <Position X="4.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAACBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\Player.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

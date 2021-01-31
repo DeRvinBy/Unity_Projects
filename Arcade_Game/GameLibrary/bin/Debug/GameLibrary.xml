@@ -1,0 +1,967 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GameLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:GameLibrary.Bullets.Bullet">
+            <summary>
+            Абстрактный класс пули
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Bullets.Bullet.Speed">
+            <summary>
+            Скорость пули
+            </summary>
+        </member>
+        <member name="F:GameLibrary.Bullets.Bullet.maze">
+            <summary>
+            Экземпляр сцены игры
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Bullets.Bullet.SetSettings(SharpDX.Vector2,System.String)">
+            <summary>
+            Установление направления полета пули
+            </summary>
+            <param name="direction">Вектор направления</param>
+            <param name="tag">Тег игрового объекта, создающий пулю</param>
+        </member>
+        <member name="M:GameLibrary.Bullets.Bullet.Start">
+            <summary>
+            Поведение на момент создание игрового объекта
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Bullets.Bullet.Update">
+            <summary>
+            Обновление игрового объекта
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Bullets.Bullet.PlayerInteraction(EngineLibrary.ObjectComponents.GameObject)">
+            <summary>
+            Взаимодействие с игроком
+            </summary>
+        </member>
+        <member name="T:GameLibrary.Bullets.BulletDecorator">
+            <summary>
+            Абстрактный класс декоратора пули
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Bullets.BulletDecorator.Speed">
+            <summary>
+            Скорость пули
+            </summary>
+        </member>
+        <member name="F:GameLibrary.Bullets.BulletDecorator.decoratedBullet">
+            <summary>
+            Декорируемая пуля
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Bullets.BulletDecorator.SetDecoratedBullet(GameLibrary.Bullets.Bullet)">
+            <summary>
+            Установление декорируемой пули
+            </summary>
+            <param name="bullet">Пуля</param>
+        </member>
+        <member name="M:GameLibrary.Bullets.BulletDecorator.PlayerInteraction(EngineLibrary.ObjectComponents.GameObject)">
+            <summary>
+            Взаимодействие с игроком
+            </summary>
+        </member>
+        <member name="T:GameLibrary.Bullets.BulletFactories.BulletFactory">
+            <summary>
+            Абстрактный класс фабрики создания пуль 
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Bullets.BulletFactories.BulletFactory.CreateBullet(SharpDX.Vector2,SharpDX.Vector2,System.String)">
+            <summary>
+            Создание игрового объекта пули
+            </summary>
+            <param name="position">Позиция появления пули</param>
+            <param name="direction">Направление пули</param>
+            <param name="tag">Тег игрового объекта, создающий пулю</param>
+            <returns>Игровой объект</returns>
+        </member>
+        <member name="T:GameLibrary.Bullets.BulletFactories.DamageBulletFactory">
+            <summary>
+            Класс фабрики создания пули урона 
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Bullets.BulletFactories.DamageBulletFactory.CreateBullet(SharpDX.Vector2,SharpDX.Vector2,System.String)">
+            <summary>
+            Создание игрового объекта пули, которая убивает
+            </summary>
+            <param name="position">Позиция появления пули</param>
+            <param name="direction">Направление пули</param>
+            <param name="tag">Тег игрового объекта, создающий пулю</param>
+            <returns>Игровой объект</returns>
+        </member>
+        <member name="T:GameLibrary.Bullets.BulletFactories.FrezzeBulletFactory">
+            <summary>
+            Класс фабрики создания замораживающей пули 
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Bullets.BulletFactories.FrezzeBulletFactory.CreateBullet(SharpDX.Vector2,SharpDX.Vector2,System.String)">
+            <summary>
+            Создание игрового объекта пули, которая замораживает
+            </summary>
+            <param name="position">Позиция появления пули</param>
+            <param name="direction">Направление пули</param>
+            /// <param name="tag">Тег игрового объекта, создающий пулю</param>
+            <returns>Игровой объект</returns>
+        </member>
+        <member name="T:GameLibrary.Bullets.BulletFactories.SlowdownBulletFactory">
+            <summary>
+            Класс фабрики создания замедляющей пули 
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Bullets.BulletFactories.SlowdownBulletFactory.CreateBullet(SharpDX.Vector2,SharpDX.Vector2,System.String)">
+            <summary>
+            Создание игрового объекта пули, которая замедляет
+            </summary>
+            <param name="position">Позиция появления пули</param>
+            <param name="direction">Направление пули</param>
+            /// <param name="tag">Тег игрового объекта, создающий пулю</param>
+            <returns>Игровой объект</returns>
+        </member>
+        <member name="T:GameLibrary.Bullets.DamageBullet">
+            <summary>
+            Класс пули урона
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Bullets.DamageBullet.Speed">
+            <summary>
+            Скорость пули
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Bullets.DamageBullet.PlayerInteraction(EngineLibrary.ObjectComponents.GameObject)">
+            <summary>
+            Взаимодействие с игроком
+            </summary>
+        </member>
+        <member name="T:GameLibrary.Bullets.FrezzeBullet">
+            <summary>
+            Класс замораживающей пули, декорируемый от пули урона
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Bullets.FrezzeBullet.Speed">
+            <summary>
+            Скорость полёта
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Bullets.FrezzeBullet.PlayerInteraction(EngineLibrary.ObjectComponents.GameObject)">
+            <summary>
+            Взаимодействие с игроком
+            </summary>
+            <param name="playerGameObject">Игровой объект игрока</param>
+        </member>
+        <member name="T:GameLibrary.Bullets.SlowdownBullet">
+            <summary>
+            Класс замедляющей пули, декорируемый от пули урона
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Bullets.SlowdownBullet.Speed">
+            <summary>
+            Скорость полёта
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Bullets.SlowdownBullet.PlayerInteraction(EngineLibrary.ObjectComponents.GameObject)">
+            <summary>
+            Взаимодействие с игроком
+            </summary>
+            <param name="playerGameObject">Игровой объект игрока</param>
+        </member>
+        <member name="T:GameLibrary.Effects.EffectFactories.DamageEffectFactory">
+            <summary>
+            Фабрика создания эффекта смерти
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Effects.EffectFactories.DamageEffectFactory.CreateEffect(EngineLibrary.ObjectComponents.GameObject)">
+            <summary>
+            Создание могилы с монетами
+            </summary>
+            <param name="player">Игровой объект игрока</param>
+            <returns>Игровой объект</returns>
+        </member>
+        <member name="T:GameLibrary.Effects.EffectFactories.EffectFactory">
+            <summary>
+            Абстрактная фабрика создания эффектов
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Effects.EffectFactories.EffectFactory.CreateEffect(EngineLibrary.ObjectComponents.GameObject)">
+            <summary>
+            Создание эффекта
+            </summary>
+            <param name="player">Игровой объект игрока</param>
+            <returns>Игровой объект</returns>
+        </member>
+        <member name="T:GameLibrary.Effects.EffectFactories.FrezzeEffectFactory">
+            <summary>
+            Фабрика создания эффекта заморозки
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Effects.EffectFactories.FrezzeEffectFactory.CreateEffect(EngineLibrary.ObjectComponents.GameObject)">
+            <summary>
+            Создание замораживающего эффекта
+            </summary>
+            <param name="player">Игровой объект игрока</param>
+            <returns>Игровой объект</returns>
+        </member>
+        <member name="T:GameLibrary.Effects.EffectFactories.SlowdownEffectFactory">
+            <summary>
+            Фабрика создания эффекта замедления
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Effects.EffectFactories.SlowdownEffectFactory.CreateEffect(EngineLibrary.ObjectComponents.GameObject)">
+            <summary>
+            Создание замедляющего эффекта
+            </summary>
+            <param name="player">Игровой объект игрока</param>
+            <returns>Игровой объект</returns>
+        </member>
+        <member name="T:GameLibrary.Effects.Effect">
+            <summary>
+            Асбтрактный класс эффекта
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Effects.Effect.EffectTime">
+            <summary>
+            Время дейтсвия эффекта
+            </summary>
+        </member>
+        <member name="F:GameLibrary.Effects.Effect.maze">
+            <summary>
+            Экземпляр сцены игры
+            </summary>
+        </member>
+        <member name="F:GameLibrary.Effects.Effect.playerScript">
+            <summary>
+            Ссылка на сценарий игрока, на которого действует эффект
+            </summary>
+        </member>
+        <member name="F:GameLibrary.Effects.Effect.playerGameObject">
+            <summary>
+            Ссылка на игровой объект, на которого действует эффект
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Effects.Effect.Start">
+            <summary>
+            Поведение на момент создание игрового объекта
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Effects.Effect.Update">
+            <summary>
+            Обновление игрового объекта
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Effects.Effect.ActivateEffect(EngineLibrary.ObjectComponents.GameObject)">
+            <summary>
+            Активация эффекта
+            </summary>
+            <param name="player">Игровой объект, на который будет наложен эффект</param>
+        </member>
+        <member name="M:GameLibrary.Effects.Effect.Initialize">
+            <summary>
+            Инициализация эффекта
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Effects.Effect.DeactivateEffect">
+            <summary>
+            Деактивация эффекта
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Effects.Effect.BehaviorOnScene">
+            <summary>
+            Поведение на сцене
+            </summary>
+        </member>
+        <member name="T:GameLibrary.Effects.EffectDecorator">
+            <summary>
+            Абстрактный класс декоратора эффекта
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Effects.EffectDecorator.EffectTime">
+            <summary>
+            Время дейтсвия эффекта
+            </summary>
+        </member>
+        <member name="F:GameLibrary.Effects.EffectDecorator.decoratedEffect">
+            <summary>
+            Дерорируемый эффект
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Effects.EffectDecorator.SetDecoratedEffect(GameLibrary.Effects.DamageEffect)">
+            <summary>
+            Установка декорируемого эффекта
+            </summary>
+            <param name="effect">Декорируемый эффект</param>
+        </member>
+        <member name="M:GameLibrary.Effects.EffectDecorator.BehaviorOnScene">
+            <summary>
+            Инициализация эффекта
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Effects.EffectDecorator.DeactivateEffect">
+            <summary>
+            Деактивация эффекта
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Effects.EffectDecorator.Initialize">
+            <summary>
+            Поведение на сцене
+            </summary>
+        </member>
+        <member name="T:GameLibrary.Effects.DamageEffect">
+            <summary>
+            Эффект после урона
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Effects.DamageEffect.EffectTime">
+            <summary>
+            Время дейтсвия эффекта
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Effects.DamageEffect.ActivateEffect(EngineLibrary.ObjectComponents.GameObject)">
+            <summary>
+            Активация эффекта
+            </summary>
+            <param name="player">Игровой объект, на который будет наложен эффект</param>
+        </member>
+        <member name="M:GameLibrary.Effects.DamageEffect.Initialize">
+            <summary>
+            Инициализация эффекта
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Effects.DamageEffect.DeactivateEffect">
+            <summary>
+            Деактивация эффекта
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Effects.DamageEffect.BehaviorOnScene">
+            <summary>
+            Поведение на сцене
+            </summary>
+        </member>
+        <member name="T:GameLibrary.Effects.FrezzeEffect">
+            <summary>
+            Эффект заморозки
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Effects.FrezzeEffect.BluePlayerEffect">
+            <summary>
+            Экземпляр текущего эффекта на сцене для синего игрока
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Effects.FrezzeEffect.RedPlayerEffect">
+            <summary>
+            Экземпляр текущего эффекта на сцене для красного игрока
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Effects.FrezzeEffect.EffectTime">
+            <summary>
+            Время дейтсвия эффекта
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Effects.FrezzeEffect.ActivateEffect(EngineLibrary.ObjectComponents.GameObject)">
+            <summary>
+            Активация эффекта
+            </summary>
+            <param name="player">Игровой объект, на который будет наложен эффект</param>
+        </member>
+        <member name="M:GameLibrary.Effects.FrezzeEffect.BehaviorOnScene">
+            <summary>
+            Поведение на сцене
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Effects.FrezzeEffect.DeactivateEffect">
+            <summary>
+            Деактивация эффекта
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Effects.FrezzeEffect.Initialize">
+            <summary>
+            Инициализация эффекта
+            </summary>
+        </member>
+        <member name="T:GameLibrary.Effects.SlowdownEffect">
+            <summary>
+            Класс эффекта замедления
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Effects.SlowdownEffect.BluePlayerEffect">
+            <summary>
+            Экземпляр текущего эффекта на сцене для синего игрока
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Effects.SlowdownEffect.RedPlayerEffect">
+            <summary>
+            Экземпляр текущего эффекта на сцене для красного игрока
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Effects.SlowdownEffect.EffectTime">
+            <summary>
+            Время дейтсвия эффекта
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Effects.SlowdownEffect.ActivateEffect(EngineLibrary.ObjectComponents.GameObject)">
+            <summary>
+            Активация эффекта
+            </summary>
+            <param name="player">Игровой объект, на который будет наложен эффект</param>
+        </member>
+        <member name="M:GameLibrary.Effects.SlowdownEffect.BehaviorOnScene">
+            <summary>
+            Поведение на сцене
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Effects.SlowdownEffect.DeactivateEffect">
+            <summary>
+            Деактивация эффекта
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Effects.SlowdownEffect.Initialize">
+            <summary>
+            Инициализация эффекта
+            </summary>
+        </member>
+        <member name="T:GameLibrary.Game.GameEvents">
+            <summary>
+            Статический класс событий игры
+            </summary>
+        </member>
+        <member name="T:GameLibrary.Game.GameEvents.CoinsDelegate">
+            <summary>
+            Делегат события изменения количества монет
+            </summary>
+            <param name="tagPlayer">Тег игрового объекта игрока</param>
+            <param name="value">Значение собранных монет</param>
+        </member>
+        <member name="P:GameLibrary.Game.GameEvents.ChangeCoins">
+            <summary>
+            Событие изменения количества монет
+            </summary>
+            
+        </member>
+        <member name="T:GameLibrary.Game.GameEvents.EndGameDelegate">
+            <summary>
+            Делегат события окончания игры
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Game.GameEvents.EndGame">
+            <summary>
+            Событие окончания игры
+            </summary>
+        </member>
+        <member name="T:GameLibrary.Game.GameEvents.EffectDelegate">
+            <summary>
+            Делегат события получения эффекта игроком
+            </summary>
+            <param name="tagPlayer">Тег игрового объекта игрока</param>
+            <param name="effectName">Название эффекта</param>
+        </member>
+        <member name="P:GameLibrary.Game.GameEvents.ChangeEffect">
+            <summary>
+            Событие получения эффекта игроком
+            </summary>
+        </member>
+        <member name="T:GameLibrary.Game.GameEvents.GunDelegate">
+            <summary>
+            Делегат события получения оружия игроком
+            </summary>
+            <param name="tagPlayer">Тег игрового объекта игрока</param>
+            <param name="gunName">Название оружия</param>
+        </member>
+        <member name="P:GameLibrary.Game.GameEvents.ChangeGun">
+            <summary>
+            Событие получения оружия игроком
+            </summary>
+        </member>
+        <member name="T:GameLibrary.Game.PlayerConstructor">
+            <summary>
+            Класс фабрики создания персонажа
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Game.PlayerConstructor.PlayerGameObject">
+            <summary>
+            Игровой Объект игрока
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Game.PlayerConstructor.PlayerTag">
+            <summary>
+            Тег плеера
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Game.PlayerConstructor.StartPosition">
+            <summary>
+            Начальная позиция игрока в лабиринте
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Game.PlayerConstructor.CreatePlayer(System.String)">
+            <summary>
+            Создание игрового объекта персонажа
+            </summary>
+            <returns>Игровой объект</returns>
+        </member>
+        <member name="M:GameLibrary.Game.PlayerConstructor.CreateGun(GameLibrary.Guns.Gun,System.String)">
+            <summary>
+            Создание игрового объектиа оружия
+            </summary>
+            <returns>Игровой объект</returns>
+        </member>
+        <member name="M:GameLibrary.Game.PlayerConstructor.CreateArms">
+            <summary>
+            Создание игрового объекта рук
+            </summary>
+            <returns>Игровой объект</returns>
+        </member>
+        <member name="T:GameLibrary.Game.Player">
+            <summary>
+            Класс, описывающий сценарий поведения игрока
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Game.Player.Control">
+            <summary>
+            Управление игрока
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Game.Player.Speed">
+            <summary>
+            Скорость игрока
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Game.Player.IsCanMove">
+            <summary>
+            Возможность двигаться у игрока
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Game.Player.Coins">
+            <summary>
+            Собарнные монеты
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Game.Player.Start">
+            <summary>
+            Поведение на момент создание игрового объекта
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Game.Player.SetChildGameObject(EngineLibrary.ObjectComponents.GameObject)">
+            <summary>
+            Установка дочернего объекта 
+            </summary>
+            <param name="gameObject">Дочерний объект</param>
+        </member>
+        <member name="M:GameLibrary.Game.Player.Update">
+            <summary>
+            Обновление игрового объекта
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Game.Player.ChangeCoinsValue(System.Int32)">
+            <summary>
+            Изменение значени монет
+            </summary>
+            <param name="value">Значение, которое прибавляется к текущему значению монет</param>
+        </member>
+        <member name="M:GameLibrary.Game.Player.Move">
+            <summary>
+            Метод движения игрока
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Game.Player.DetectCollision">
+            <summary>
+            Распознавание столкновений и реакция на них
+            </summary>
+        </member>
+        <member name="T:GameLibrary.Game.PlayerControl">
+            <summary>
+            Структура игрового управления персонажа
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Game.PlayerControl.HorizontalAxis">
+            <summary>
+            Горизонтальная ось передвижения
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Game.PlayerControl.VerticalAxis">
+            <summary>
+            Вертикальная ось передвижения
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Game.PlayerControl.ShootKey">
+            <summary>
+            Кнопка стрельбы
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Game.PlayerControl.#ctor(EngineLibrary.EngineComponents.AxisOfInput,EngineLibrary.EngineComponents.AxisOfInput,SharpDX.DirectInput.Key)">
+            <summary>
+            Конструктор структуры
+            </summary>
+            <param name="horizontalAxis">Горизонтальная ось передвижения</param>
+            <param name="verticalAxis"> Вертикальная ось передвижения</param>
+            <param name="shootKey">Кнопка стрельбы</param>
+        </member>
+        <member name="T:GameLibrary.Guns.GunDecorator">
+            <summary>
+            Абстрактный класс декоратора оружия
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Guns.GunDecorator.UseTime">
+            <summary>
+            Время использования оружия
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Guns.GunDecorator.ReloadTime">
+            <summary>
+            Время перезарядки оружия
+            </summary>
+        </member>
+        <member name="F:GameLibrary.Guns.GunDecorator.decoratedGun">
+            <summary>
+            Декорируемое оружие
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Guns.GunDecorator.SetDecoratedGun(GameLibrary.Guns.Gun)">
+            <summary>
+            Установление декорируемого оружия
+            </summary>
+            <param name="gun">Оружие</param>
+        </member>
+        <member name="M:GameLibrary.Guns.GunDecorator.LoadAnimation">
+            <summary>
+            Загрузка анимации оружия
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Guns.GunDecorator.SpawnBullet(SharpDX.Vector2,SharpDX.Vector2)">
+            <summary>
+            Создание пули из фабрики
+            </summary>
+            <param name="position">Позиция создания</param>
+            <param name="direction">Направление пули</param>
+        </member>
+        <member name="T:GameLibrary.Guns.Gun">
+            <summary>
+            Абстрактный класс оружия
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Guns.Gun.UseTime">
+            <summary>
+            Время использования оружия
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Guns.Gun.ReloadTime">
+            <summary>
+            Время перезарядки оружия
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Guns.Gun.PlayerFactory">
+            <summary>
+            Фабрика персонажа, к которому прикреплено оружие
+            </summary>
+        </member>
+        <member name="F:GameLibrary.Guns.Gun.maze">
+            <summary>
+            Экземпляр сцены игры
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Guns.Gun.Start">
+            <summary>
+            Поведение на момент создание игрового объекта
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Guns.Gun.LoadAnimation">
+            <summary>
+            Загрузка анимации оружия
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Guns.Gun.Update">
+            <summary>
+            Обновление игрового объекта
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Guns.Gun.SpawnBullet(SharpDX.Vector2,SharpDX.Vector2)">
+            <summary>
+            Создание пули из фабрики
+            </summary>
+            <param name="position">Позиция создания</param>
+            <param name="direction">Направление пули</param>
+        </member>
+        <member name="T:GameLibrary.Guns.DamageGun">
+            <summary>
+            Класс оружия урона
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Guns.DamageGun.UseTime">
+            <summary>
+            Время использования оружия
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Guns.DamageGun.ReloadTime">
+            <summary>
+            Время перезарядки оружия
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Guns.DamageGun.LoadAnimation">
+            <summary>
+            Загрузка анимации оружия
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Guns.DamageGun.SpawnBullet(SharpDX.Vector2,SharpDX.Vector2)">
+            <summary>
+            Создание пули из фабрики
+            </summary>
+            <param name="position">Позиция создания</param>
+            <param name="direction">Направление пули</param>
+        </member>
+        <member name="T:GameLibrary.Guns.FrezzeGun">
+            <summary>
+            Класс оружия заморозки
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Guns.FrezzeGun.UseTime">
+            <summary>
+            Время использования оружия
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Guns.FrezzeGun.ReloadTime">
+            <summary>
+            Время перезарядки оружия
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Guns.FrezzeGun.LoadAnimation">
+            <summary>
+            Загрузка анимации оружия
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Guns.FrezzeGun.SpawnBullet(SharpDX.Vector2,SharpDX.Vector2)">
+            <summary>
+            Создание пули из фабрики
+            </summary>
+            <param name="position">Позиция создания пули</param>
+            <param name="direction">Направление пули</param>
+        </member>
+        <member name="T:GameLibrary.Guns.SlowdownGun">
+            <summary>
+            Класс замедляющего оружия
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Guns.SlowdownGun.UseTime">
+            <summary>
+            Время использования оружия
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Guns.SlowdownGun.ReloadTime">
+            <summary>
+            Время перезарядки оружия
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Guns.SlowdownGun.LoadAnimation">
+            <summary>
+            Загрузка анимации оружия
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Guns.SlowdownGun.SpawnBullet(SharpDX.Vector2,SharpDX.Vector2)">
+            <summary>
+            Создание пули из фабрики
+            </summary>
+            <param name="position">Позиция создания</param>
+            <param name="direction">Направление пули</param>
+        </member>
+        <member name="T:GameLibrary.Guns.SpawnFactories.DamageGunSpawnFactory">
+            <summary>
+            Фабрика создания места подбираемого оружия урона
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Guns.SpawnFactories.DamageGunSpawnFactory.CreateGunSpawn(SharpDX.Vector2)">
+            <summary>
+            Создание места подбираемого оружия с уроном
+            </summary>
+            <param name="position">Позиция появления</param>
+            <returns>Игровой объект</returns>
+        </member>
+        <member name="T:GameLibrary.Guns.SpawnFactories.FrezzeGunSpawnFactory">
+            <summary>
+            Фабрика создания места подбираемого оружия заморозки
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Guns.SpawnFactories.FrezzeGunSpawnFactory.CreateGunSpawn(SharpDX.Vector2)">
+            <summary>
+            Создание места подбираемого оружия с заморозкой
+            </summary>
+            <param name="position">Позиция появления</param>
+            <returns>Игровой объект</returns>
+        </member>
+        <member name="T:GameLibrary.Guns.SpawnFactories.GunSpawnFactory">
+            <summary>
+            Фбстрактная фабрика создания места подбираемого оружия
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Guns.SpawnFactories.GunSpawnFactory.CreateGunSpawn(SharpDX.Vector2)">
+            <summary>
+            Создание места подбираемого оружия
+            </summary>
+            <param name="position">Позиция появления</param>
+            <returns>Игровой объект</returns>
+        </member>
+        <member name="T:GameLibrary.Guns.SpawnFactories.SlowdownGunSpawnFactory">
+            <summary>
+            Фабрика создания места подбираемого оружия замедления
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Guns.SpawnFactories.SlowdownGunSpawnFactory.CreateGunSpawn(SharpDX.Vector2)">
+            <summary>
+            Создание места подбираемого оружия замедления
+            </summary>
+            <param name="position">Позиция появления</param>
+            <returns>Игровой объект</returns>
+        </member>
+        <member name="T:GameLibrary.Maze.Coin">
+            <summary>
+            Класс монеты
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Maze.Coin.Start">
+            <summary>
+            Поведение на момент создание игрового объекта
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Maze.Coin.Update">
+            <summary>
+            Обновление игрового объекта
+            </summary>
+        </member>
+        <member name="T:GameLibrary.Maze.BreakWall">
+            <summary>
+            Класс ломающейся стены
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Maze.BreakWall.Start">
+            <summary>
+            Поведение на момент создание игрового объекта
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Maze.BreakWall.Update">
+            <summary>
+            Обновление игрового объекта
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Maze.BreakWall.DestroyWall">
+            <summary>
+            Уничтожении стены
+            </summary>
+        </member>
+        <member name="T:GameLibrary.Maze.SpawnManager">
+            <summary>
+            Класс игрового менеджера
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Maze.SpawnManager.Start">
+            <summary>
+            Поведение на момент создание игрового объекта
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Maze.SpawnManager.Update">
+            <summary>
+            Обновление игрового объекта
+            </summary>
+        </member>
+        <member name="T:GameLibrary.Maze.GunSpawn">
+            <summary>
+            Класс подбираемого оружия в лабиринте
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Maze.GunSpawn.InitializeGunSpawn(System.String,GameLibrary.Guns.Gun,System.Single)">
+            <summary>
+            Инициализация места подбираемого оружия
+            </summary>
+            <param name="name">Название оружия</param>
+            <param name="gun">Подбираемое оружие</param>
+            <param name="disappearTime">Время исчезнование места</param>
+        </member>
+        <member name="M:GameLibrary.Maze.GunSpawn.Start">
+            <summary>
+            Поведение на момент создание игрового объекта
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Maze.GunSpawn.Update">
+            <summary>
+            Обновление игрового объекта
+            </summary>
+        </member>
+        <member name="T:GameLibrary.Maze.MazeScene">
+            <summary>
+            Класс лабиринта
+            </summary>
+        </member>
+        <member name="F:GameLibrary.Maze.MazeScene.instance">
+            <summary>
+            Статическая ссылка на класс
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Maze.MazeScene.ElementsFactory">
+            <summary>
+            Фабрика создания элементов лабиринта
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Maze.MazeScene.BluePlayerFactory">
+            <summary>
+            Конструктор синего игрока
+            </summary>
+        </member>
+        <member name="P:GameLibrary.Maze.MazeScene.RedPlayerFactory">
+            <summary>
+            Конструктор красного игрока
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Maze.MazeScene.CreateGameObjectsOnScene">
+            <summary>
+            Создание игровых объектов на сцене
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Maze.MazeScene.CreateMaze">
+            <summary>
+            Метод создания лабиринта
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Maze.MazeScene.AddObjectOnScene(EngineLibrary.ObjectComponents.GameObject)">
+            <summary>
+            Добавление объекта в лист отрисовки
+            </summary>
+            <param name="gameObject">Игровой объект</param>
+        </member>
+        <member name="M:GameLibrary.Maze.MazeScene.RemoveObjectFromScene(EngineLibrary.ObjectComponents.GameObject)">
+            <summary>
+            Удаления объекта из листа отрисовки
+            </summary>
+            <param name="gameObject">Игровой объект</param>
+        </member>
+        <member name="M:GameLibrary.Maze.MazeScene.GetRandomPosition">
+            <summary>
+            Рандомное место в лабиринте
+            </summary>
+            <returns>Позицию</returns>
+        </member>
+        <member name="M:GameLibrary.Maze.MazeScene.EndScene">
+            <summary>
+            Поведение при завершении сцены
+            </summary>
+        </member>
+        <member name="T:GameLibrary.Maze.MazeElementsFactory">
+            <summary>
+            Класс фабрики создания элементов лабиринта 
+            </summary>
+        </member>
+        <member name="M:GameLibrary.Maze.MazeElementsFactory.CreateMazeElement(SharpDX.Vector2,System.String)">
+            <summary>
+            Создает элемент лабиринта
+            </summary>
+            <param name="position">Позиция объекта на сцене</param>
+            <param name="TagName">Тег игрового объекта</param>
+            <returns>Созданный игровой объект</returns>
+        </member>
+        <member name="M:GameLibrary.Maze.MazeElementsFactory.CreateCoin(SharpDX.Vector2)">
+            <summary>
+            Создание монет в лабиринте
+            </summary>
+            <param name="position">Позиция объекта на сцене</param>
+            <returns>Игровой объект</returns>
+        </member>
+    </members>
+</doc>

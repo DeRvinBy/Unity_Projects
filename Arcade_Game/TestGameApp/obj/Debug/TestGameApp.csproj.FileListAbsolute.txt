@@ -1,0 +1,189 @@
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\Arms\arms left idle 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\Arms\arms left idle 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\Arms\arms left run 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\Arms\arms left run 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\Arms\arms left run 3.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\Arms\arms left run 4.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\Arms\arms right idle 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\Arms\arms right idle 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\Arms\arms right run 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\Arms\arms right run 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\Arms\arms right run 3.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\Arms\arms right run 4.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\damage Gun\damage left idle 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\damage Gun\damage left idle 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\damage Gun\damage left run 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\damage Gun\damage left run 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\damage Gun\damage left run 3.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\damage Gun\damage left run 4.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\damage Gun\damage right idle 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\damage Gun\damage right idle 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\damage Gun\damage right run 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\damage Gun\damage right run 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\damage Gun\damage right run 3.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\damage Gun\damage right run 4.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\frezze Gun\frezze left idle 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\frezze Gun\frezze left idle 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\frezze Gun\frezze left run 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\frezze Gun\frezze left run 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\frezze Gun\frezze left run 3.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\frezze Gun\frezze left run 4.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\frezze Gun\frezze right idle 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\frezze Gun\frezze right idle 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\frezze Gun\frezze right run 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\frezze Gun\frezze right run 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\frezze Gun\frezze right run 3.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\frezze Gun\frezze right run 4.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\left idle 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\left idle 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\left run 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\left run 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\left run 3.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\left run 4.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\right idle 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\right idle 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\right run 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\right run 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\right run 3.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\right run 4.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\slowdown Gun\slowdown left idle 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\slowdown Gun\slowdown left idle 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\slowdown Gun\slowdown left run 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\slowdown Gun\slowdown left run 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\slowdown Gun\slowdown left run 3.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\slowdown Gun\slowdown left run 4.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\slowdown Gun\slowdown right idle 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\slowdown Gun\slowdown right idle 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\slowdown Gun\slowdown right run 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\slowdown Gun\slowdown right run 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\slowdown Gun\slowdown right run 3.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Blue Player\slowdown Gun\slowdown right run 4.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Bullets\damage bullet.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Bullets\frezze bullet.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Bullets\slowdown bullet.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\MazeElements\BreakWall.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\MazeElements\BreakWall 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\MazeElements\BreakWall 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\MazeElements\BreakWall 3.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\MazeElements\Effects\damage idle 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\MazeElements\Effects\frezze left idle.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\MazeElements\Effects\frezze right idle.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\MazeElements\Effects\slowdown left idle 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\MazeElements\Effects\slowdown left idle 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\MazeElements\Effects\slowdown right idle 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\MazeElements\Effects\slowdown right idle 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\MazeElements\Platform.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\MazeElements\Spawn Guns\damage spawn 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\MazeElements\Spawn Guns\damage spawn 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\MazeElements\Spawn Guns\frezze spawn 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\MazeElements\Spawn Guns\frezze spawn 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\MazeElements\Spawn Guns\slowdown spawn 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\MazeElements\Spawn Guns\slowdown spawn 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\MazeElements\Stair.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\MazeElements\Treasure.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\MazeElements\Wall.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Mazes\Maze 1.bmp
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Mazes\Maze 2.bmp
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Mazes\Maze 3.bmp
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Mazes\Maze 4.bmp
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Mazes\Maze 5.bmp
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\Arms\arms left idle 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\Arms\arms left idle 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\Arms\arms left run 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\Arms\arms left run 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\Arms\arms left run 3.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\Arms\arms left run 4.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\Arms\arms right idle 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\Arms\arms right idle 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\Arms\arms right run 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\Arms\arms right run 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\Arms\arms right run 3.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\Arms\arms right run 4.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\damage Gun\damage left idle 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\damage Gun\damage left idle 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\damage Gun\damage left run 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\damage Gun\damage left run 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\damage Gun\damage left run 3.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\damage Gun\damage left run 4.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\damage Gun\damage right idle 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\damage Gun\damage right idle 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\damage Gun\damage right run 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\damage Gun\damage right run 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\damage Gun\damage right run 3.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\damage Gun\damage right run 4.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\frezze Gun\frezze left idle 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\frezze Gun\frezze left idle 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\frezze Gun\frezze left run 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\frezze Gun\frezze left run 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\frezze Gun\frezze left run 3.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\frezze Gun\frezze left run 4.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\frezze Gun\frezze right idle 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\frezze Gun\frezze right idle 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\frezze Gun\frezze right run 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\frezze Gun\frezze right run 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\frezze Gun\frezze right run 3.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\frezze Gun\frezze right run 4.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\left idle 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\left idle 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\left run 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\left run 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\left run 3.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\left run 4.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\right idle 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\right idle 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\right run 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\right run 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\right run 3.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\right run 4.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\slowdown Gun\slowdown left idle 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\slowdown Gun\slowdown left idle 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\slowdown Gun\slowdown left run 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\slowdown Gun\slowdown left run 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\slowdown Gun\slowdown left run 3.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\slowdown Gun\slowdown left run 4.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\slowdown Gun\slowdown right idle 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\slowdown Gun\slowdown right idle 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\slowdown Gun\slowdown right run 1.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\slowdown Gun\slowdown right run 2.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\slowdown Gun\slowdown right run 3.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Red Player\slowdown Gun\slowdown right run 4.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Resources\Фон.png
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\TestGameApp.dll
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\TestGameApp.pdb
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\EngineLibrary.dll
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\GameLibrary.dll
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\SharpDX.Direct2D1.dll
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\SharpDX.dll
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\SharpDX.DXGI.dll
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\SharpDX.Mathematics.dll
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\SharpDX.DirectInput.dll
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\SharpDX.Desktop.dll
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\EngineLibrary.pdb
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\EngineLibrary.xml
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\GameLibrary.pdb
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\GameLibrary.xml
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\SharpDX.pdb
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\SharpDX.Direct2D1.pdb
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\SharpDX.Direct2D1.xml
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\SharpDX.DXGI.pdb
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\SharpDX.DXGI.xml
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\SharpDX.Mathematics.pdb
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\SharpDX.Mathematics.xml
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\SharpDX.DirectInput.pdb
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\SharpDX.DirectInput.xml
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\SharpDX.Desktop.pdb
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\bin\Debug\SharpDX.Desktop.xml
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\obj\Debug\TestGameApp.csprojAssemblyReference.cache
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\obj\Debug\TestGameApp.csproj.CopyComplete
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\obj\Debug\TestGameApp.dll
+G:\Учбеа\Курсовая\CourseGame\TestGameApp\obj\Debug\TestGameApp.pdb
