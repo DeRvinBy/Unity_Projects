@@ -1,0 +1,2347 @@
+fileFormatVersion: 2
+guid: d573994c0bdbee647a147b6594665ae0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2843028763739034082
+    second: Wall2
+  - first:
+      213: -6938630914278373763
+    second: Wall1
+  - first:
+      213: 1252083523232573012
+    second: Wall3
+  - first:
+      213: 944250199422215326
+    second: Floor1
+  - first:
+      213: -2170261892859865593
+    second: Floor2
+  - first:
+      213: 3508025592687715819
+    second: Floor3
+  - first:
+      213: 1724935780898298840
+    second: Floor6
+  - first:
+      213: 6579700124094786817
+    second: Floor5
+  - first:
+      213: -3061281566959490545
+    second: Floor4
+  - first:
+      213: 3964869319356653316
+    second: Floor7
+  - first:
+      213: 3641800207045588961
+    second: Floor8
+  - first:
+      213: -7935412051143721978
+    second: FloorExit
+  - first:
+      213: 996454237661484774
+    second: FountainWater2
+  - first:
+      213: 1665577120891440509
+    second: FountainWater1
+  - first:
+      213: 5976069604929236635
+    second: FountainWater3
+  - first:
+      213: -2445265913219097277
+    second: FountainLava1
+  - first:
+      213: -5627466797483427628
+    second: FountainLava2
+  - first:
+      213: 5137504331076806783
+    second: FountainLava3
+  - first:
+      213: -2435270507825641780
+    second: Column
+  - first:
+      213: 6128299156075563123
+    second: FountainFacade
+  - first:
+      213: 2124562170323005780
+    second: WallCorner1
+  - first:
+      213: -7078390689607701658
+    second: WallCorner2
+  - first:
+      213: -8077596607791375406
+    second: Wall4
+  - first:
+      213: -5455609879999944073
+    second: WallCorner3
+  - first:
+      213: 1728312235961122960
+    second: WallCorner4
+  - first:
+      213: -1742192554877860661
+    second: ChestWeapon3
+  - first:
+      213: -4961067056955532692
+    second: ChestWeapon2
+  - first:
+      213: -5642454836394851580
+    second: ChestWeapon1
+  - first:
+      213: -3636183157680365048
+    second: ChestGold3
+  - first:
+      213: 2861146116330907762
+    second: ChestGold2
+  - first:
+      213: 9102965711754867033
+    second: ChestGold1
+  - first:
+      213: 3003780194054249517
+    second: ChestEnemy3
+  - first:
+      213: -3470274187008353064
+    second: ChestEnemy2
+  - first:
+      213: 3156550451217121085
+    second: ChestEnemy1
+  - first:
+      213: -4450187690458833534
+    second: Box
+  - first:
+      213: -1494293479488335354
+    second: Gold1
+  - first:
+      213: -5033755164579890984
+    second: Gold2
+  - first:
+      213: 1533106984382079940
+    second: Gold3
+  - first:
+      213: -5347798067042448795
+    second: Gold4
+  - first:
+      213: 2777146242389513434
+    second: HealthBigIdle
+  - first:
+      213: 6711442322398742419
+    second: HealthBigAnim1
+  - first:
+      213: -3892769897454335329
+    second: HealthBigAnim2
+  - first:
+      213: -3586618601732318359
+    second: HealthBigAnim3
+  - first:
+      213: -5695145746273722192
+    second: HealthBigAnim4
+  - first:
+      213: -625721686738166737
+    second: HealthLittleIdle
+  - first:
+      213: -7046247690442620881
+    second: HealthLittleAnim1
+  - first:
+      213: -4820360244365834658
+    second: HealthLittleAnim2
+  - first:
+      213: 3225354954870807452
+    second: HealthLittleAnim3
+  - first:
+      213: -7268625481131528930
+    second: HealthLittleAnim4
+  - first:
+      213: -6054985901542796592
+    second: StaminaBigIdle
+  - first:
+      213: 1766452680774567361
+    second: StaminaBigAnim1
+  - first:
+      213: 8263517313717189812
+    second: StaminaBigAnim2
+  - first:
+      213: -6114943207227573102
+    second: StaminaBigAnim3
+  - first:
+      213: -744944510547675448
+    second: StaminaBigAnim4
+  - first:
+      213: -4666266186878945306
+    second: StaminaLittleAnim
+  - first:
+      213: 1396832337496516162
+    second: StaminaLittleAnim1
+  - first:
+      213: 1712320898668149644
+    second: StaminaLittleAnim2
+  - first:
+      213: 8153602364251599853
+    second: StaminaLittleAnim3
+  - first:
+      213: -8279049181630533499
+    second: StaminaLittleAnim4
+  - first:
+      213: -4075556493913534137
+    second: DeathAnim1
+  - first:
+      213: -6036839115284962258
+    second: DeathAnim2
+  - first:
+      213: -8048518252878758489
+    second: DeathAnim3
+  - first:
+      213: -2870762278678937529
+    second: DeathAnim4
+  - first:
+      213: 1902081201375472733
+    second: DeathAnim5
+  - first:
+      213: -4555489987110438790
+    second: PlayerKnightIdle1
+  - first:
+      213: -3092477368232618785
+    second: PlayerKnightDeath2
+  - first:
+      213: 1956429069428636961
+    second: PlayerKnightIdle2
+  - first:
+      213: 2989831600753525009
+    second: PlayerKnightDeath1
+  - first:
+      213: 3238333072162114930
+    second: PlayerHeroDeath2
+  - first:
+      213: 3386662938922423588
+    second: sprites_1
+  - first:
+      213: 4277513494768961912
+    second: PlayerHeroDeath1
+  - first:
+      213: -5303615372141754369
+    second: PlayerHeroIdle2
+  - first:
+      213: 9167518090725323323
+    second: PlayerHeroIdle1
+  - first:
+      213: -3642554522052266437
+    second: PlayerWizardDeath2
+  - first:
+      213: 6947437311983964406
+    second: PlayerWizardDeath1
+  - first:
+      213: -2250420005735227550
+    second: PlayerWizardIdle2
+  - first:
+      213: 2550593271498927702
+    second: PlayerWizardIdle1
+  - first:
+      213: 1151588770401799673
+    second: SwordDiamond
+  - first:
+      213: -2494744570060851916
+    second: SwordGold
+  - first:
+      213: -7837786096531250425
+    second: SwordIron
+  - first:
+      213: 6841929919721518900
+    second: SwordEnemy
+  - first:
+      213: -7817945514986105938
+    second: EnemySkeletonIdle1
+  - first:
+      213: -1514114216973252981
+    second: EnemySkeletonIdle2
+  - first:
+      213: 539653360974423171
+    second: EnemyOrkIdle1
+  - first:
+      213: 2013101831312544327
+    second: EnemyOrkIdle2
+  - first:
+      213: -9047026358579267669
+    second: EnemyDemonIdle1
+  - first:
+      213: -4422153958968274932
+    second: EnemyDemonIdle2
+  - first:
+      213: 6797808402770482651
+    second: HealtFull
+  - first:
+      213: 2678643961241185341
+    second: HealthHalf
+  - first:
+      213: 3083798214863361829
+    second: HealthEmpty
+  - first:
+      213: 7093136615442701967
+    second: EnergyHealth
+  - first:
+      213: -9053727445475356332
+    second: EnergyHalf
+  - first:
+      213: 6150851340495343734
+    second: EnergyEmpty
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wall2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 157
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879b8d8ee373e1c4db486e3ada6c06df
+      internalID: 2843028763739034082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 157
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00878dd020917a649978c2be3baa4aff
+      internalID: -6938630914278373763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall3
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 157
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0460cc280bcbd4ab312244f8915e88
+      internalID: 1252083523232573012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01783f2148284c94fb9346e68cc7505e
+      internalID: 944250199422215326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe878bf6c2c8f3642b89a259f381e53d
+      internalID: -2170261892859865593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor3
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 139
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e02306a5ee580546a1571e4a958806a
+      internalID: 3508025592687715819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor6
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 123
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28b6841714b6614796ae8583f8e2f19
+      internalID: 1724935780898298840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor5
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 123
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263e799d7accfb54fac269e25573cce7
+      internalID: 6579700124094786817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor4
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 123
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7046f2e68c65d054f98dc988a1bc7379
+      internalID: -3061281566959490545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor7
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 107
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db31832fa6acea94a827aed81525f98c
+      internalID: 3964869319356653316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor8
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 107
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff651608462f0054589e705dc9a48ff9
+      internalID: 3641800207045588961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FloorExit
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 107
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6aa92d11f095b443be3df335ccf41c8
+      internalID: -7935412051143721978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FountainWater2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 107
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506acb17226045f43868ba0e483e5116
+      internalID: 996454237661484774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FountainWater1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 107
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a71fcd9e93350a47bddca4a8cbf044c
+      internalID: 1665577120891440509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FountainWater3
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 107
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72717c9a62fca74a8806ef95154b844
+      internalID: 5976069604929236635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FountainLava1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 140
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050804015aadff349a9e4fdd14ca70d0
+      internalID: -2445265913219097277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FountainLava2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 140
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65406579669aa9348afb09641a1fbc18
+      internalID: -5627466797483427628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FountainLava3
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 140
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f6aa7b27a64d248815edd71748d573
+      internalID: 5137504331076806783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Column
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 140
+        width: 16
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e304fee8d1b9645be89995689c0f6a
+      internalID: -2435270507825641780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FountainFacade
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 173
+        width: 16
+        height: 8
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4588f3e33b98a744b532e4abcbd3948
+      internalID: 6128299156075563123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallCorner1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 135
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8cdf426f66ade46a73254fd0e538e1
+      internalID: 2124562170323005780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallCorner2
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 135
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf10d9ab19c9ad447b2635e5da09fdd6
+      internalID: -7078390689607701658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall4
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 118
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f767cad4c59f1144958627a4687113a
+      internalID: -8077596607791375406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallCorner3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 97
+        width: 5
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc06e0ec7e5cd44449cd004cf5b13464
+      internalID: -5455609879999944073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallCorner4
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 97
+        width: 5
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b16354fadd4ebf41bbfdc159d65d394
+      internalID: 1728312235961122960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestWeapon3
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 86
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3bf2afba93cb4c4895ba9c7e966551b
+      internalID: -1742192554877860661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestWeapon2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 86
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256d9e76d3c8d1a46bf5e6a52b83f23e
+      internalID: -4961067056955532692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestWeapon1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 86
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00da39a23de40946a57468bade3d571
+      internalID: -5642454836394851580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestGold3
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 70
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67161aae557342b4a8144701b27fce1c
+      internalID: -3636183157680365048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestGold2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 70
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c74e5512a0de3746967b652a268174e
+      internalID: 2861146116330907762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestGold1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 70
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c629e994ac845cd478b8a2ade27b9417
+      internalID: 9102965711754867033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestEnemy3
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 54
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5292490d0c9fd429e5e43c2b09876d
+      internalID: 3003780194054249517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestEnemy2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 54
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c674dd6a12a62d64a9c3639090355f03
+      internalID: -3470274187008353064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestEnemy1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 54
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28344717dc6a114fa97c7a34be9bf19
+      internalID: 3156550451217121085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 34
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb961cba78e99d4ba9f37526a5d5268
+      internalID: -4450187690458833534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 95
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e15146a14a9af44b8fd3051625509d
+      internalID: -1494293479488335354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 95
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b91ae7d7eaa56c48b7fe1553394c1d4
+      internalID: -5033755164579890984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold3
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 95
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db74ef9cf4ee57439ef13e8adc103f4
+      internalID: 1533106984382079940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold4
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 95
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40cd091b3d63a72428a3ba23c3eb8161
+      internalID: -5347798067042448795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBigIdle
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 76
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fff2883197604343a442b7a9d556f56
+      internalID: 2777146242389513434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBigAnim1
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 76
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef631f5e39c193f488a53908bdfb869f
+      internalID: 6711442322398742419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBigAnim2
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 76
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727dfe61cb11c254d95058271262a555
+      internalID: -3892769897454335329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBigAnim3
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 76
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc490010ed818940a48be048c286ec0
+      internalID: -3586618601732318359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBigAnim4
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 76
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104c5a89444c959419c3e6f2caf8b040
+      internalID: -5695145746273722192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthLittleIdle
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 60
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35044cb6ec61e894cb3180e8e8a04b93
+      internalID: -625721686738166737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthLittleAnim1
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 60
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d76201418adee499ff23bbdc0b75ab
+      internalID: -7046247690442620881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthLittleAnim2
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 60
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19a802a2f7c28e4eb1dec90448302d1
+      internalID: -4820360244365834658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthLittleAnim3
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 60
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7f44fe6c219934f98b92a04c6e92f8
+      internalID: 3225354954870807452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthLittleAnim4
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 60
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d4a8c16fc7d4a6498a29403eb8766a9
+      internalID: -7268625481131528930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaBigIdle
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 43
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac3413b7aeea3044b438c5a49459273
+      internalID: -6054985901542796592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaBigAnim1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 43
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f159f3c6a97c1438e4d41f94d0b088
+      internalID: 1766452680774567361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaBigAnim2
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 43
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1c4f6d73f29484db862c3296715648
+      internalID: 8263517313717189812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaBigAnim3
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 43
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675fce9acf8560e45b104cf4ec7d68df
+      internalID: -6114943207227573102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaBigAnim4
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 43
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67086a06ee8919747a5eb6c096492ead
+      internalID: -744944510547675448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaLittleAnim
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 27
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442978c8804621041b4d3952284b5b40
+      internalID: -4666266186878945306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaLittleAnim1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 27
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5eb3da03e35c6349b97edada12b6861
+      internalID: 1396832337496516162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaLittleAnim2
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 27
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c4e13947348d3419ebff5539f351d7
+      internalID: 1712320898668149644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaLittleAnim3
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 27
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f307860d5c6474baffc387593f82ca
+      internalID: 8153602364251599853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StaminaLittleAnim4
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 27
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab254d02bcf23a45bf84938e45a44dd
+      internalID: -8279049181630533499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathAnim1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 3
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505053903cf9f43429f85016b4dba08b
+      internalID: -4075556493913534137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathAnim2
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 3
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e720c8defd5f44e85d6dc67d5f1a37
+      internalID: -6036839115284962258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathAnim3
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 3
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14547cdcdc8a8f14c860b3cfc3bed759
+      internalID: -8048518252878758489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathAnim4
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 3
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48231f89a4e311941bae8495cdc0b8dd
+      internalID: -2870762278678937529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathAnim5
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 3
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8622ceefff508004b880bb13653068a4
+      internalID: 1902081201375472733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerKnightIdle1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 157
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3651d22f32b0b4486f34f8881551e7
+      internalID: -4555489987110438790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerKnightDeath2
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 157
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84f59129937d3e429f3bede2fb39c32
+      internalID: -3092477368232618785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerKnightIdle2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 157
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ff8d7c1dc9da548b7de296864e5971
+      internalID: 1956429069428636961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerKnightDeath1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 157
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91df265480462ba44bdbbdc1caee8fb4
+      internalID: 2989831600753525009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHeroDeath2
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 131
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca56a1639aadf04d95580642bd70c3a
+      internalID: 3238333072162114930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprites_1
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 131
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6abe37b662e77f43b4b69e203bf2b0b
+      internalID: 3386662938922423588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHeroDeath1
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 131
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8906c0cb1cbd38543a0d79732ee9e18d
+      internalID: 4277513494768961912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHeroIdle2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 131
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df55f2914432ef84389b531f182e13da
+      internalID: -5303615372141754369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHeroIdle1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 131
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba585c9cc2c907d45805ed3af157afd6
+      internalID: 9167518090725323323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerWizardDeath2
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 106
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13f45a3687522d4f9201dff6344520b
+      internalID: -3642554522052266437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerWizardDeath1
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 106
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4e465305a569443825435989e20af4
+      internalID: 6947437311983964406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerWizardIdle2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 106
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8cb9744870b964395633b136bc6fba
+      internalID: -2250420005735227550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerWizardIdle1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 106
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bbb4314ad3180c42ae8413786cbaaaf
+      internalID: 2550593271498927702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordDiamond
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 79
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4010a43ebe240ca46824d50ecaa015eb
+      internalID: 1151588770401799673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordGold
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 79
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13087522270298f4896e2eb248c35cce
+      internalID: -2494744570060851916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordIron
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 79
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98feaa708f523d409b339efd3ee53f2
+      internalID: -7837786096531250425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordEnemy
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 78
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bfcdf61877d2c46aac256ad6af6c12
+      internalID: 6841929919721518900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkeletonIdle1
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 161
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313d52ce98a89914a902a6ff7096bc2c
+      internalID: -7817945514986105938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemySkeletonIdle2
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 161
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d195fdd4e7e324083c0765936a7e66
+      internalID: -1514114216973252981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyOrkIdle1
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 137
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e649450a77da5954bb6f3a7ff49f3a26
+      internalID: 539653360974423171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyOrkIdle2
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 137
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83e616fa3818464b96f636135840439
+      internalID: 2013101831312544327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyDemonIdle1
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 112
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5a694cb084f1e4aa99f8f973582cc9
+      internalID: -9047026358579267669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyDemonIdle2
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 112
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f981ac31b26a3e46a1db361794e2764
+      internalID: -4422153958968274932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealtFull
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 38
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a83ed1a00f7fd40b96a1aa7c3647a0
+      internalID: 6797808402770482651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthHalf
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 38
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8528cc19d59d54c8c1bc65dedc6ea9
+      internalID: 2678643961241185341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthEmpty
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 38
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cef38aea484aa4782a652d1be0ceea
+      internalID: 3083798214863361829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnergyHealth
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 25
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d47ac46b6563743b65bd212d0ce95a
+      internalID: 7093136615442701967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnergyHalf
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 25
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19bb6e7bb3a9f6e46b663f60d5920a4c
+      internalID: -9053727445475356332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnergyEmpty
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 25
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec614a4603cd36545954ea781eb19f27
+      internalID: 6150851340495343734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
